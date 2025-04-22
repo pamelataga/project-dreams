@@ -425,32 +425,34 @@ export default function Home() {
             </div>
 
             <div>
-              <h4 className="text-lg font-semibold mb-4">Newsletter</h4>
-              <p className="text-cream/80 mb-4">Inscreva-se para receber novidades e conteúdos exclusivos.</p>
-              <form className="flex">
-                <input
-                  type="email"
-                  placeholder="Seu email"
-                  className="px-4 py-2 rounded-l-md w-full focus:outline-none text-gray-800"
-                />
-                <button type="submit" className="bg-green px-4 py-2 rounded-r-md hover:bg-green/90 transition-colors">
-                  Enviar
-                </button>
-              </form>
-            </div>
-          </div>
-
-          <div className="border-t border-purple/30 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-cream/80 mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} Dreams Tech. Todos os direitos reservados.
-            </p>
-            <div className="flex gap-4">
-              <Link href="#" className="text-cream/80 hover:text-white transition-colors">
-                Termos de Uso
-              </Link>
-              <Link href="#" className="text-cream/80 hover:text-white transition-colors">
-                Política de Privacidade
-              </Link>
+              <h4 className="text-lg font-semibold mb-4">Fale conosco</h4>
+              <p className="text-cream/80 mb-4">Campo Grande - MS</p>
+              <div className="flex gap-4">
+                <Link
+                  href="https://www.facebook.com/share/169f5Ykr76/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity"
+                >
+                  <Icon type="facebook" />
+                </Link>
+                <Link
+                  href="https://www.instagram.com/dreamstech.brasil?igsh=YjUzdHAzNnJrcnpq"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity"
+                >
+                  <Icon type="instagram" />
+                </Link>
+                <Link
+                  href="https://wa.me/5543991910292"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity"
+                >
+                  <Icon type="whatsapp" />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
